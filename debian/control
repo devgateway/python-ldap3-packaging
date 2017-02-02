@@ -1,0 +1,35 @@
+Source: python-ldap3
+Maintainer: Styopa Semenukha <ssemenukha@developmentgateway.org>
+Section: python
+Priority: optional
+Build-Depends: debhelper (>= 8), dh-python,
+    python-all (>= 2.6.6-3~), python-setuptools, python-pyasn1,
+    python3-all, python3-setuptools, python3-pyasn1,
+Standards-Version: 3.9.7
+Homepage: https://github.com/cannatag/ldap3
+X-Python-Version: >= 2.6
+X-Python3-Version: >= 3.2
+
+Package: python-ldap3
+Architecture: all
+Depends: ${python:Depends}, ${misc:Depends}
+Breaks: python-tldap (<< 0.3.8~)
+Description: Pure Python LDAP client library
+ A pure Python 3 LDAP version 3 strictly conforming to RFC4511 released under
+ the LGPL v3 open source license. RFC4511 is the current LDAP specification
+ (June 2006) from IETF and obsoletes the previous LDAP RFCs 2251, 2830, 3771
+ (December 1997)
+ .
+ This package contains the Python 2.7 version of the library.
+
+Package: python3-ldap3
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}
+Breaks: python3-tldap (<< 0.3.8~)
+Description: Pure Python LDAP client library
+ A pure Python 3 LDAP version 3 strictly conforming to RFC4511 released under
+ the LGPL v3 open source license. RFC4511 is the current LDAP specification
+ (June 2006) from IETF and obsoletes the previous LDAP RFCs 2251, 2830, 3771
+ (December 1997)
+ .
+ This package contains the Python 3.x version of the library.

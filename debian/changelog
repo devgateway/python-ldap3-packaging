@@ -1,0 +1,5 @@
+python-ldap3 (2.2.0-1) UNRELEASED; urgency=medium
+
+  * Initial release.
+
+ -- Styopa Semenukha <ssemenukha@developmentgateway.org>  Thu, 02 Feb 2017 16:15:36 -0500
