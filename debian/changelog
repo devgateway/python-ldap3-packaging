@@ -1,5 +1,6 @@
-python-ldap3 (2.2.0-1) UNRELEASED; urgency=medium
+python-ldap3 (2.2.1-1) UNRELEASED; urgency=medium
 
   * Initial release.
+  * Updated to 2.2.1 from upstream.
 
- -- Styopa Semenukha <ssemenukha@developmentgateway.org>  Thu, 02 Feb 2017 16:15:36 -0500
+ -- Styopa Semenukha <ssemenukha@developmentgateway.org>  Fri, 10 Mar 2017 14:11:36 -0500
